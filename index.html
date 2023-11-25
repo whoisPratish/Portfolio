@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pratish's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+  </head>
+  <body>
+    
+    <div class="navbar">
+      <div class="logo">
+        <a href="home.html"><img src="images/logo.avif" alt="Logo"></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="public/about-me.html">About Me</a></li>
+          <li><a href="public/contact-me.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="left">
+    <img src="images/IMG_1807-modified.jpg" alt="">
+  </div>
+  <div class="right">
+    <div class="text-container">
+        <p class="hello"></p>
+        <p class="intro">
+          I am Pratish Dhakal, a Web Developer residing at 
+          <a href="https://www.google.com/search?q=toronto&oq=toronto&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YgwEYsQMYgAQyDQgCEAAYgwEYsQMYgAQyDQgDEAAYgwEYsQMYgAQyBggEEEUYQDIGCAUQRRg9MgYIBhBFGDwyBggHEEUYPNIBCDE2ODRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer">Toronto,Canada</a>
+      </p>
+          </div>
+    <script>
+      const text = 'Hello !';
+      
+      const element = document.querySelector('.hello');
+    
+      const delay = 120; // Adjust this value to change typing speed (milliseconds)
+      
+      function typeCharacter(index) {
+        if (index < text.length) {
+          element.textContent += text.charAt(index);
+          setTimeout(() => typeCharacter(index + 1), delay);
+        }
+      }
+
+      typeCharacter(-1);
+    </script>
+</div>
+
+  </body>
+</html>

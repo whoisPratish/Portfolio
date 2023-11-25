@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*
+
+The below CSS code is for navbar.
+
+*/
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: black
+}
+
+.navbar .logo a img {
+    width: 88px;
+    float: left;
+    height: 8.9vh;
+}
+
+.navbar .nav ul li {
+    display: inline;
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.nav a{
+    margin: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.nav {
+     text-align: end;
+     padding: 15px;
+}
+
+/*
+The below code is for body part except nav. 
+*/
+
+body{
+    background-color: rgb(228, 221, 221);
+}
+
+
+.left{
+font-family: 'Baloo Bhaijaan 2', sans-serif;
+font-family: 'Sometype Mono', monospace;
+width: 50%;
+float: left;
+height: 90vh;
+}
+
+.left h3 {
+    margin-top: 10px;
+    padding: 13px;
+}
+
+.left .abtme{
+    text-align: center;
+}
+
+.education table{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    text-align: center;
+}
+.abtme p{
+    margin-left: 40px;
+}
+.right{
+    width: 50%;
+    height: 90vh;
+    align-items: center;
+    display: flex; 
+    justify-content: flex-end;
+    float: left;
+  }
+
+
+.right img{
+    width: 40%;
+    height: 45%;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+@media only screen and (max-width: 768px) {
+    .right img{
+        width: 55%;
+        height: 35%;
+        border-radius: 50%;
+    }
+
+}
+
+
+.abtme a {
+    text-decoration: none;
+}
+
+.here {
+    background-color: rgb(229, 227, 238);
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;  
+}
